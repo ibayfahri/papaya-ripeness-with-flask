@@ -9,8 +9,8 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = load_model('Main_feature/vgg16_model1.h5')
-reconstructed_model = keras.models.load_model("Main_feature/vgg16_model1.h5")
+model = load_model('http://pineapple.freevar.com/model_js/vgg16_model1.h5')
+reconstructed_model = keras.models.load_model("http://pineapple.freevar.com/model_js/vgg16_model1.h5")
 batch_size = 32
 img_height = 224
 img_width = 224
